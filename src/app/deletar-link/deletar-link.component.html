@@ -1,0 +1,24 @@
+<div class="container-fluid">
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-ml-8 centralizarRetangulo">
+            <h1 class="d-flex justify-content-center"style="color: red;">Deletar</h1>
+            <h1 class="d-flex justify-content-center">{{link.nomeLink}}</h1>
+            <h5 class="justify-content-start mt-3">Nome:</h5>
+            <p>{{link.nomeLink}}</p>
+            <h5 class="justify-content-start " >Link:</h5>
+            <p>{{link.link}}</p>
+            <button class="btn-cadastrar-preto"  (click)="deletar()">Deletar</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center" style="padding-bottom: 5%;">
+        <div class="col-ml-4 pr-3 pt-3">
+            <a routerLink="/link"><button class="btn-branco">Voltar</button></a>
+        </div>
+        <div class="col-ml-4 pl-5 pt-3">
+            <a routerLink="/cadastrar"><button class="btn-editar-preto">Cadastrar</button></a>
+        </div>
+    </div>
+</div>

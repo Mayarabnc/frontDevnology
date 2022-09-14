@@ -1,0 +1,101 @@
+/* Configurações da tag H */
+
+h1{
+    color: black;
+    margin-left: 110px;
+    font-size: 45px;
+}
+
+h6{
+    font-size: 10px;
+}
+
+/* Configurações da tag H */
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #00bc45 !important;
+}
+
+a .fa-trash-o:hover{
+    color: rgb(223, 1, 1);
+}
+
+/* Fundo */
+
+.fundoDoLinks{
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-color: #01ff5f;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 0px 50px 50px 0px ;
+
+}
+
+.fundoCard{
+    background-color:  #d9d9d9;
+}
+
+/* Fundo */
+
+.sair{
+    color: white !important;
+    cursor: pointer;
+}
+.sair:hover{
+    color: #01ff5f !important;
+    cursor: pointer;
+}
+
+
+
+/*Botões*/
+
+.btn-editar-preto{
+   
+    border-radius: 50px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    background-color: #01ff5f;
+    color: black;
+    border: none;
+    font-size: 25px;
+
+}
+
+.btn-editar-preto:hover{
+    background-color:  white;
+    color: black;
+    border-color: black;
+}
+
+.btn-branco{
+   
+    border-radius: 50px;
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 25px;
+
+}
+
+.btn-branco:hover{
+    background-color:  black;
+    color: white;
+    border-color: black;
+}
+
+/*Botões*/

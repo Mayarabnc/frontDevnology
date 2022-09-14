@@ -1,0 +1,19 @@
+<div class="container-fluid">
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-ml-12 centralizarRetangulo ">
+            <h1 class="d-flex justify-content-center">Login</h1>
+            <h5 class="justify-content-start ml-3 mt-3">Usuário:</h5>
+            <input [(ngModel)]="userLogin.usuario" type="text" placeholder="Digite o nome que deseja usar para o link">
+            <h5 class="justify-content-start ml-3" >Senha:</h5>
+            <input [(ngModel)]="userLogin.senha" type="password" placeholder="Digite o link da pagina">
+            <button class="btn-cadastrar d-flex justify-content-center" (click)="entrar()">Entrar</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center" style="padding-bottom: 5%;">
+        <div class="col-ml-8 pt-3">
+            <a routerLink="/cadastrarUser"><button class="btn-branco d-flex justify-content-center">Cadastre-se</button></a>
+        </div>
+    </div>

@@ -1,0 +1,16 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-image: linear-gradient(-20deg, white, rgb(59, 59, 59), black) !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}

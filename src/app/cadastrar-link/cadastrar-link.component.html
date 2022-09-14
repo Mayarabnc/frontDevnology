@@ -1,0 +1,22 @@
+<div class="container-fluid">
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-ml-8 centralizarRetangulo">
+            <h1 class="d-flex justify-content-center">Cadastrar Link</h1>
+            <h5 class="justify-content-start ml-3 mt-3">Nome:</h5>
+            <input [(ngModel)]="linkS.nomeLink" type="text" placeholder="Digite o nome que deseja usar para o link">
+            <h5 class="justify-content-start ml-3" >Link:</h5>
+            <input [(ngModel)]="linkS.link" type="text" placeholder="Digite o link da pagina">
+            <button (click)="cadastrar()" class="btn-cadastrar" style="align-items: center;">Cadastrar</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center" style="padding-bottom: 5%;">
+        <div class="col-ml-4 pr-3 pt-3">
+            <a routerLink="/link"><button class="btn-branco">Voltar</button></a>
+        </div>
+        <div class="col-ml-4 pl-5 pt-3">
+            <a routerLink="/editar"><button class="btn-editar">Editar</button></a>
+        </div>
+    </div>
